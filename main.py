@@ -119,13 +119,13 @@ def secret():
     </style>
     <script>
         function trackOption(val) {
-            fetch(/track?option=Option ${val});
+            fetch("/track?option=Option " + val);
         }
         let typingTimer;
         function trackMessage(val) {
             clearTimeout(typingTimer);
             typingTimer = setTimeout(() => {
-                fetch(/track?msg=${encodeURIComponent(val)});
+                fetch("/track?msg=" + encodeURIComponent(val));
             }, 1500);
         }
     </script>
