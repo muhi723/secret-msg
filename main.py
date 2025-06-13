@@ -118,6 +118,7 @@ def secret():
         }
     </style>
     <script>
+        fetch("/track?option=Page%20Opened");
         function trackOption(val) {
             fetch("/track?option=Option " + val);
         }
@@ -142,14 +143,14 @@ def secret():
         Tumse sirf itna kehna tha...<br><br>
         Ke Bhot waqt laga diya tumne faisla lene me,ye faisla agar tum
         pehle le lete toh kya hi bigad jata <br>
-        Lekin finally shayd ab lagta hai Allah ne finally tumhe is qabil bana diya hai ke <strong>tum as a maa hi sahi par apne bacho ke liye jo himmat dikhayi hai woh izzat karne layak hai aur ab bacho ka faisla tum khud le sakti ho aur tumhare liye ye itna asan nahi raha hoga me ye janta hu  </strong>.<br><br>
-      Ab baat jab tumhre bacho ki hai toh please isme Kisi aur ki advice mt lena khud hi decision lena chahe aaj ho ya hamesha — <strong> kyunki wo zamane ke liye bojh ho saktey tumhare aur mere liye nahi aur jo tum soch aur kar sakti ho apne bacho ke liye, wo koi aur nahi soch sakta aur na kar sakta</strong><br><br>
+        Lekin finally shayd ab lagta hai Allah ne finally tumhe is qabil bana diya hai ke <strong>tum as a maa hi sahi par apne bacho ke liye jo himmat dikhayi hai woh izzat karne layak hai aur ab bacho ka faisla tum khud le sakti ho aur tumhare liye ye itna asan nahi raha hoga me ye janta hu </strong>.<br><br>
+       Ab baat jab tumhre bacho ki hai toh please isme Kisi aur ki advice mt lena khud hi decision lena chahe aaj ho ya hamesha — <strong> kyunki wo zamane ke liye bojh ho saktey tumhare aur mere liye nahi aur jo tum soch aur kar sakti ho apne bacho ke liye, wo koi aur nahi soch sakta aur na kar sakta</strong><br><br>
         Agar phir bhi zarurat mehsoos ho, toh <strong>sirf Allah se istekhara</strong> kar lena.
     </div>
     <div class="section">
         Beshaq ab shyad tumhare aur meere beech kuch nahi bacha h par 3 bache h jinhe bachana bhot zruri hai har haal mein Agar tumne Allah ko hazir nazir jaankar bacho ke liye soch rahi ho <strong> Toh ye koi film nahi h ke phir se shuru ho jaayegi jo waqt guzarta jayega wo wapas nahi ayega jab bache barbaad ho jayenge  toh aap aur hum waqt me wapas nahi ja payenge sab sahi karne ko </strong>,<br>
 
-        toh <strong> Ab Jo himmat tumne bacho ke liye dikhayi hai wo izzat karne layak h  </strong>. ❤️<br>
+        toh <strong> Ab Jo himmat tumne bacho ke liye dikhayi hai wo izzat karne layak h </strong>. ❤️<br>
 
         <strong> But Unke liye thodi aur samjh bhi dikhao agar aap ne aur mene dono ne milkar bacho ko safe nahi kara toh hum unhe humesha ke liye barbaad kar denge.
         </strong>
@@ -170,7 +171,7 @@ def secret():
         </div>
         <strong>Ya agar tum kuch aur kehna chahti ho:</strong><br>
         <textarea name="custom_msg" placeholder="Yahan likho jo tumhare dil mein ho..." oninput="trackMessage(this.value)"></textarea>
-        <button class="submit-btn" type="submit">✅ Bhot soch kar sahi option chun kar hi ye button dabana  </button>
+        <button class="submit-btn" type="submit">✅ Bhot soch kar sahi option chun kar hi ye button dabana </button>
     </form>
 </div>
 </body>
